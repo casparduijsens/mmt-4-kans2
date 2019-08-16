@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vince Willemson</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Playfair+Display:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
+  <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<header>
+
+   <div id="sliderHolder">
+
+      <div class="sliderCanvas">
+          
+              <div class="sliderImage">
+              <img src="img/hero1.jpg"></img> 
+            </div>
+
+            <div class="sliderImage">
+              <img src="img/hero2.jpg"></img> 
+            </div>
+
+            <div class="sliderImage">
+              <img src="img/hero3.jpg"></img> 
+            </div>
+        </div>
+      </div>
+
+
+    <div class="container">
+      <div id="navBar">
+          <div class="navBarRight">
+              <ul>
+                  <li><a href="#">About me</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+      </div>
+        <div class=bigBlockTitle>
+          <a href="index.html"> <img id="imgProfiel" src="img/profiel1.jpg" alt="Profiel"> </a> 
+
+        <h1>Hi, my name is Vincent
+          I code and design cool stuff</h1>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class=bigBlockText>
+
+          <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. </p>
+        </div>
+    </div>
+</header>
+
+<main>
+
+  <div class="container">
+
+    <div id="videoSpace">
+
+        <div id="videoTest">
+            <video id='video' class='video-js vjs-default-skin vjs-16-9' preload='auto' width='904' height='508.5'
+            poster='img/cover.jpg' data-setup='{}'>
+              <source src='video/video.mp4' type='video/mp4'>
+            </video>
+
+            <a href="#"><div id="rewindButton"><h2>◄◄</h2></div></a>
+            <a href="#"><div id="playButton"><h2>▶</h2></div></a>
+
+          </div>
+    </div>
+
+  <div id="gridSpace">
+
+    <h3>featured profile</h3>
+      
+  <div id="thumbHolder">
+
+
+        
+        <div id="thumb1"><div class="thumbOverlay">
+          <h4>Digital Thinkers Conference</h4>
+          <div class="thumbHashtag1"><h5>#client</h5></div>
+          <div class="thumbHashtag2"><h5>#design</h5></div>
+          <div class="thumbHashtag3"><h5>#code</h5></div>
+          <div class="clear"></div>
+
+          </div></div>
+
+        <div id="thumb2"><div class="thumbOverlay">
+            <h4>Digital Thinkers Conference</h4>
+            <div class="thumbHashtag1"><h5>#client</h5></div>
+            <div class="thumbHashtag2"><h5>#design</h5></div>
+            <div class="thumbHashtag3"><h5>#code</h5></div>
+            <div class="clear"></div>
+           </div></div>
+
+
+        <div id="thumb3"><div class="thumbOverlay">
+            <h4>Digital Thinkers Conference</h4>
+            <div class="thumbHashtag1"><h5>#client</h5></div>
+            <div class="thumbHashtag2"><h5>#design</h5></div>
+            <div class="thumbHashtag3"><h5>#code</h5></div>
+            <div class="clear"></div>
+           </div></div>
+
+           <a href="portfolio.html">
+        <div id="thumb4"><div class="thumbOverlay">
+            <h4>Digital Thinkers Conference</h4>
+            <div class="thumbHashtag1"><h5>#client</h5></div>
+            <div class="thumbHashtag2"><h5>#design</h5></div>
+            <div class="thumbHashtag3"><h5>#code</h5></div>
+            <div class="clear"></div>
+           </div></div>
+          </a>
+
+
+        <div id="thumb5"><div class="thumbOverlay">
+            <h4>Digital Thinkers Conference</h4>
+            <div class="thumbHashtag1"><h5>#client</h5></div>
+            <div class="thumbHashtag2"><h5>#design</h5></div>
+            <div class="thumbHashtag3"><h5>#code</h5></div>
+            <div class="clear"></div>
+           </div></div>
+
+
+
+        <div id="thumb6"><div class="thumbOverlay">
+            <h4>Digital Thinkers Conference</h4>
+            <div class="thumbHashtag1"><h5>#client</h5></div>
+            <div class="thumbHashtag2"><h5>#design</h5></div>
+            <div class="thumbHashtag3"><h5>#code</h5></div>
+            <div class="clear"></div>
+           </div></div>
+
+      </div>
+
+      <div class="clear"></div>
+      <a href="#">
+      <div id="portfolioButton">
+        <h2>More Portfolio</h2>
+      </div>
+      </a>
+     </div>
+  </div>
+</main>
+
+
+
+<footer>
+<div class="container">
+    <div class=footerTitle><h1>What can I do for you?
+    Let’s get in touch</h1></div>
+    <a href="#">
+    <h2 id="contactButton">Contact</h2>
+  </a>
+</div>
+</footer>
+
+<div id="popup">
+  
+  <h2>Contact</h2>
+
+  <p>Vincentius Willhelmuson Sijbers</p>
+  <p>043- 420 69 69</p>
+  <p>vincewill@mamdt.com</p>
+
+  <a href="#">
+  <h3 id="closeContact">Close</h3>
+</a>
+
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+<script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
+<script src='js/script.js'></script>
+
+
+
+
+
+
+
+</body>
+
+
+<html>
